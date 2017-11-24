@@ -243,10 +243,12 @@ input[type=submit] {
     width: 980px;    
   }
 
+.auth-image {
+  clear: both;
+}
   .sidebar {
     float: left;
     width: 100%;
-    padding: 0px;
     margin-bottom: 20px;
   }
 }
@@ -255,10 +257,13 @@ input[type=submit] {
   .container {
     width: 768px;    
   }
+ 
+ .auth-image {
+  clear: both;
+}
   .sidebar {
     float: left;
     width: 100%;
-    padding: 0px;
     margin-bottom: 20px;
   }
 }
@@ -267,10 +272,14 @@ input[type=submit] {
   .container {
     width: 640px;    
   }
-  .sidebar {
+ 
+ .auth-image {
+  clear: both;
+}
+
+ .sidebar {
     float: left;
     width: 100%;
-    padding: 0px;
     margin-bottom: 20px;
-}
+  }
 }
