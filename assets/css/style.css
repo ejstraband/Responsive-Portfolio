@@ -239,13 +239,19 @@ input[type=submit] {
 }
 
 @media screen (max-width: 980px) {
-
+  .container {
+    width: 980px;    
+  }
 }
 
 @media screen (max-width: 768px) {
-
+  .container {
+    width: 768px;    
+  }
 }
 
 @media screen (max-width: 640px) {
-
+  .container {
+    width: 640px;    
+  }
 }
