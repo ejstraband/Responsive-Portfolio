@@ -242,11 +242,18 @@ input[type=submit] {
   .container {
     width: 980px;    
   }
+
+  .sidebar {
+    float: left;
+  }
 }
 
 @media screen (max-width: 768px) {
   .container {
     width: 768px;    
+  }
+  .sidebar {
+    float: left;
   }
 }
 
@@ -254,4 +261,7 @@ input[type=submit] {
   .container {
     width: 640px;    
   }
+  .sidebar {
+    float: left;
+}
 }
