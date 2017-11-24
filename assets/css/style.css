@@ -237,3 +237,15 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen (max-width: 980px) {
+
+}
+
+@media screen (max-width: 768px) {
+
+}
+
+@media screen (max-width: 640px) {
+
+}
