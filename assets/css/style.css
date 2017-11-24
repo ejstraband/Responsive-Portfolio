@@ -245,6 +245,9 @@ input[type=submit] {
 
   .sidebar {
     float: left;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 20px;
   }
 }
 
@@ -254,6 +257,9 @@ input[type=submit] {
   }
   .sidebar {
     float: left;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 20px;
   }
 }
 
@@ -263,5 +269,8 @@ input[type=submit] {
   }
   .sidebar {
     float: left;
+    width: 100%;
+    padding: 0px;
+    margin-bottom: 20px;
 }
 }
