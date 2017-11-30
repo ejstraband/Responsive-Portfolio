@@ -244,58 +244,54 @@ input[type=submit] {
 
   .container {
     width: 100%;
-/*    max-width: 980px;*/
     margin: 0 auto;
     clear: both;
     }
+
+  .main-section {
+    width: 60%;
+    margin-left: 20px; 
+    }
+
+  .sidebar {
+    margin-right: 20px; 
+  }
+
+  nav {
+    margin-right: 30px;
+  }
+
 }
 
 @media (max-width: 768px) {
 
-  .container {
-   width: 100%;
-   /*max-width: 768px;*/
-   margin: 0 auto;
-   clear: both;
-  }
-
-  #logo {
-   /*float: none;*/
-   width: 100%;
-  }
-
-  nav {
-   float: none;
-   width: 100%;
-  }
-
-  .sidebar {
-    float: none;
-    width: 100%;
-  }
-
   .main-section {
-    float: none;
-    width: 100%;
-  }
+    width: 90%;
+    }
 
   .auth-image {
-   float: none;
+     float: none;
+     }
+
+  .sidebar {
+    float: left;
+    margin-left: 20px;
+    margin-right: 60px;
+    max-width: 90%;
+  }
+  
+  .connect {
+    width: 100%;
   }
 
-  .connect {
-   float: none;
-   margin: 0px;
-  }
 }
 
 @media (max-width: 640px) {
 
   .container {
-  width: 100%;
-  /*max-width: 640px;*/
+  width: 90%;
   margin: 0 auto;
-  clear: both;
+
   }
 
   #masthead {
@@ -304,31 +300,41 @@ input[type=submit] {
   }
 
   #logo {
-/*  float: none;*/
   width: 100%;    
   }
 
   nav {
    float: none;
+   text-align: center;
+   line-height: 2
+   word-spacing: 30px;
+  }
+
+  nav a {
+   display: inline;
    width: 100%;
+   margin-top: 10px;
+   margin-bottom: 20px;
   }
 
   .sidebar {
     float: none;
-    width: 100%;
+    max-width: 90%;
     }
 
   .main-section {
     float: none;
-    width: 100%;
+    width: 90%;
     }
     
   .auth-image {
    float: none;
+   width: 80%;
   }
 
   .connect {
    float: none;
    margin: 0px;
+   width: 90%;
   }
 }
