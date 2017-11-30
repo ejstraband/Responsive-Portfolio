@@ -291,11 +291,14 @@ input[type=submit] {
   .container {
   width: 90%;
   margin: 0 auto;
+  }
 
+  #main-container {
+    padding-top: 10px;
   }
 
   #masthead {
-    position: fixed;
+    position: static;
     width: 100%;
   }
 
@@ -327,6 +330,14 @@ input[type=submit] {
     width: 90%;
     }
     
+.work {
+  position: relative;
+  float: none;
+  width: 100%;
+  margin: 20px 0 25px;
+  overflow: auto;
+}
+
   .auth-image {
    float: none;
    width: 80%;
